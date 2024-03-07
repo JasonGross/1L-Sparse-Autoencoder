@@ -13,6 +13,7 @@ neel-plotly = {git = "https://github.com/neelnanda-io/neel-plotly.git"}
 transformers = "^4.38.2"
 ipython = "^8.22.2"
 wandb = "^0.16.4"
+datasets = "^2.18.0"
 
 
 [build-system]

@@ -1,5 +1,5 @@
 # %%
-from .utils import *
+from utils import *
 
 # %%
 encoder = AutoEncoder(cfg)
