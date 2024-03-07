@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "1l-sparse-autoencoder"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+neel = {git = "https://github.com/neelnanda-io/neelutils.git"}
+neel-plotly = {git = "https://github.com/neelnanda-io/neel-plotly.git"}
+transformers = "^4.38.2"
+ipython = "^8.22.2"
+wandb = "^0.16.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
